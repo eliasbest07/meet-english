@@ -61,7 +61,7 @@ export default function Home() {
             <br />
             <h1 style={{ marginLeft:'10px', marginRight:'10px' ,color: '#57EBFF', textShadow: '2px 2px 4px #000000',textAlign: 'center', fontSize: '1.5em'  }}>No más escusas, tú si puedes hacerlo</h1>
             <br />
-<p className='text-white' >Estoy seguro de que cuando te hablan en inglés tú entiendes un poco, pero te cuesta responder. Con estas clases diarias aprenderás a dar respuestas y a sentir la seguridad porque vas a saber lo que dices  </p>
+<p className='text-white' >Estoy seguro de que cuando te hablan en inglés tú entiendes un poco, pero te cuesta responder. Con estas clases diarias aprenderás a dar respuestas y a sentir la seguridad porque vas a saber que decir  </p>
 <br />
             </RectangleComponent> 
             
