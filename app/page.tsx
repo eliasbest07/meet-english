@@ -49,13 +49,27 @@ export default function Home() {
 <br />
             </RectangleComponent> 
             <br />
-            <RectangleComponent color={'rgba(41, 41, 38, 0.4)'}  left={0} width={45} height={'auto'}>
-            <Image style={{ 
+            <div style={{
+      
+            background: 'rgba(41, 41, 38, 0.4)',
+            border: '1px solid rgba(255, 255, 255, 0.08)',
+            boxShadow: '2px 4px 4px rgba(0, 0, 0, 0.35), inset -1px 0px 2px rgba(201, 201, 201, 0.1), inset 5px -5px 12px rgba(255, 255, 255, 0.05), inset -5px 5px 12px rgba(255, 255, 255, 0.05)',
+            backdropFilter: 'blur(6px)',
+            borderRadius: '20px',
+          //  marginLeft: `${left}px`,
+
+            // display: 'flex',
+            justifyContent: 'center',
+            textAlign:'center',
+            alignItems: 'center'
+        }}>
+              <Image style={{ 
     margin: '10px', 
     borderRadius: '10px'  // Añade esta línea para agregar bordes redondeados
   }}   src={'/imgpc.jpg'} alt='online boy and pc' width={315} height={250} />
+        </div>
+   
 
-            </RectangleComponent> 
             <br />
             <RectangleComponent color={'rgba(41, 41, 38, 0.4)'}  left={0} width={45} height={'auto'}>
             <br />
