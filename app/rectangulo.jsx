@@ -1,7 +1,7 @@
 const RectangleComponent = ({ color, height, width, left,children }) => {
     return (
         <div style={{
-            height: `${height}px`,
+            height: `${height}`,
             width: `${width}dvh`,
             background: `${color}`,
             border: '1px solid rgba(255, 255, 255, 0.08)',
