@@ -103,9 +103,9 @@ export default function Home() {
 <br />
 <RectangleComponent color={'rgba(41, 41, 38, 0.4)'}  left={0} width={45} height={'auto'}>
             <br />
-            <h1 style={{ marginLeft:'10px', marginRight:'10px' ,color: '#57EBFF', textShadow: '2px 2px 4px #000000',textAlign: 'center', fontSize: '1.5em'  }}>¿Donde son las clases?</h1>
+            <h1 style={{ marginLeft:'10px', marginRight:'10px' ,color: '#57EBFF', textShadow: '2px 2px 4px #000000',textAlign: 'center', fontSize: '1.5em'  }}>¿Dónde son las clases?</h1>
             <br />
-<p className='text-white' >Son por video llamadas, entras a un enlace que se te enviara por whatsapp, puedes entrar desde una pc o desde tu celular </p>
+<p className='text-white' >Son por videollamadas, entras a un enlace que se te enviara por whatsapp, puedes entrar desde una pc o desde tu celular </p>
 <br />
             </RectangleComponent> 
             <br />
@@ -185,12 +185,12 @@ export default function Home() {
           onClick={() => setMostrarPopup(false)}
         >
           <div style={{ backgroundColor: 'white', padding: '20px' }}>
-            Son dos clases al dia, una en la mañana <br />
-            la otra en la tarde, los dias Lunes, Martes <br />
-            Miercoles, Jueves y Viernes. Puedes entrar <br />
-            en las dos clases del dia que duran <br />
+            Son dos clases al día, una en la mañana <br />
+            la otra en la tarde, los días Lunes, Martes <br />
+            Miércoles, Jueves y Viernes. Puedes entrar <br />
+            en las dos clases del día que duran <br />
             30 minutos aunque el contenido de la <br />
-            clase del dias es el mismo en la de <br />
+            clase del días es el mismo en la de <br />
             la mañana y el de la noche  
             
           </div>
